@@ -72,7 +72,7 @@ li {
 
 .flex-1 {
     flex: 1;
-{
+}
 
 .container {
     padding: 50px 0;
@@ -153,12 +153,9 @@ nav {
     flex-direction: column;
 }
 
-.about me__info {
+.about-me__info {
     display: flex;
     flex-direction: column;
-}
-
-about-me__info--container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,9 +163,9 @@ about-me__info--container {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-}
 
-.about-me __picture--mask {
+
+.about-me__picture--mask {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -213,21 +210,21 @@ about-me__info--container {
     animation: fade-up 650ms 800ms backwards;
 }
 
-@keyframes fade up {
-    0% {\
+@keyframes fade-up {
+    0% {
         opacity: 0;
         transform: translateY(40px);
-    }
+    }       
+    
     100% {
         opacity: 1;
         transform: translateY(0);
     }
-}
 
-about-me__img-container {
+.about-me__img-container {
     flex: 1;
     display: flex;
-    align items: center
+    align-items: center
 }
 
 .about-me__image {
@@ -243,7 +240,7 @@ about-me__img-container {
       opacity: 1;
     }
 
-.wave {
+wave {
     display: inline-block;
     animation: animate-wave 500ms infinite ease-in-out;
 }
@@ -317,6 +314,7 @@ about-me__img-container {
 
 .project:last-child {
     margin-bottom: 40px;
+}
 
 .project__img {
     width: 100%;
@@ -377,8 +375,7 @@ about-me__img-container {
 .project__description--title {
     font-size: 40px;
 }
-.project__description--sub-title {
-}
+
 
 .project__description--para {
     margin: 16px 0;
@@ -392,7 +389,7 @@ about-me__img-container {
 .project__description--link {
     text-align: left;
     color: #fff;
-{
+}
 
 /* FOOTER */
 
@@ -426,7 +423,7 @@ about-me__img-container {
 }
 
 .footer__social--link {
-    .footer: copyright;
+    footer: copyright;
     color: #fff;
 }
 
@@ -458,7 +455,7 @@ about-me__img-container {
 
 
 .about-me__picture {
-    width: 100%:
+    width: 100%;
 }
 
     /* Improving my own Picture */
@@ -502,7 +499,7 @@ h1 {
 
     .project__description {
     padding: 0;
-    left: 0
+    left: 0;
     width: 100%;
     }
 
@@ -530,6 +527,3 @@ h1 {
 }
 
 
-
-
- 
