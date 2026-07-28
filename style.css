@@ -106,7 +106,7 @@ section:nth-child(even) {
 
 nav {
     height: 100px;
-    width: 100px;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -242,7 +242,8 @@ nav {
       opacity: 1;
     }
 
-wave {
+.wave {
+    
     display: inline-block;
     animation: animate-wave 500ms infinite ease-in-out;
 }
@@ -265,6 +266,8 @@ wave {
 .language__img {
     width: 100%;
     max-width: 100px;
+    height: 100px;
+    object-fit: contain;
    transition: all 300ms;
 }
 
@@ -290,7 +293,6 @@ wave {
 
 .language__list {
     display: flex;
-    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
