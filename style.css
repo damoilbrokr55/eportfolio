@@ -221,6 +221,7 @@ nav {
         opacity: 1;
         transform: translateY(0);
     }
+}
 
 .about-me__img-container {
     flex: 1;
