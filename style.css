@@ -241,9 +241,9 @@ nav {
     100% {
       opacity: 1;
     }
+}
 
 .wave {
-    
     display: inline-block;
     animation: animate-wave 500ms infinite ease-in-out;
 }
@@ -264,11 +264,10 @@ nav {
 
 
 .language__img {
-    width: 100%;
-    max-width: 100px;
-    height: 100px;
+    width: 100%
+    max-width: 80px;
+    height: 80px;
     object-fit: contain;
-   transition: all 300ms;
 }
 
 .language:hover .language__img {
@@ -278,23 +277,24 @@ nav {
 }
 
 .language {
-    width: 25%;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 
 .language__img--wrapper {
+    width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 25px 16px;
 }
 
 .language__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    gap: 32px 12px;
     width: 100%;
-    flex-wrap: wrap;
 }
 
 .language__name {
